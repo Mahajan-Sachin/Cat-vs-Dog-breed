@@ -1,7 +1,6 @@
 streamlit
-tensorflow
+tensorflow==2.10.1
 numpy
 pillow
 pandas
 joblib
-
