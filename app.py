@@ -15,7 +15,7 @@ st.set_page_config(
 # ---------------- LOAD MODEL & METADATA ----------------
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("breed_classifier_mobilenet.h5")
+    return tf.keras.models.load_model("breed_classifier_mobilenet.keras")
 
 @st.cache_resource
 def load_metadata():
